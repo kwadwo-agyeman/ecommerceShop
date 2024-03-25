@@ -86,7 +86,7 @@ function App() {
         <Preloader />
         {/* Routing for different pages */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ecommerceShop" element={<Home />} />
           <Route
             path="/womenStore"
             element={
