@@ -74,7 +74,7 @@ function MenStoreCB(props) {
           }}
         >
           {/* Mapping through cardArr to render Card components */}
-          {props.cardArr.map((cardItem, index) => (
+          {props.cardArr && props.cardArr.map((cardItem, index) => (
             <Card
               key={index}
               id={cardItem.id}

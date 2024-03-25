@@ -10,7 +10,7 @@ function Card(props) {
   const cartItem = props.cartItems.find(
     (item) => item.id === props.cardItem.id
   );
-  console.log(cartItem);
+  // console.log(cartItem);
 
   return (
     <div>

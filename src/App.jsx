@@ -56,7 +56,7 @@ function App() {
 
   // Function to filter card content based on title
   const filterCardContent = (title, cardContent) => {
-    console.log("Filtering with title:", title);
+    // console.log("Filtering with title:", title);
     setFilter(!filter);
     if (filter === false) {
       inspectCategory(cardContent);
@@ -73,9 +73,9 @@ function App() {
         }
         return false;
       });
-    }
+    
       inspectCategory(categoryArr);
-    }
+    }}
   };
 
   return (

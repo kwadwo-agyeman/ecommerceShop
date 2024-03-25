@@ -28,6 +28,7 @@ function ChildrenStore(props) {
   //   // Call the fetch function
   //   fetchStoreItems();
   // }, []); // Empty dependency array ensures it only runs once when the component mounts
+  
 
   // useEffect to mount items and add/remove event listener
   useEffect(() => {
@@ -77,7 +78,7 @@ function ChildrenStore(props) {
           {/* LeftGrid Component */}
           <LeftGrid
             leftGrid={leftGrid}
-            cardContent={CardContent}
+            cardContent={cardContent}
             filterCardContent={props.filterCardContent}
             toggleMenuHeight={props.toggleMenuHeight}
           />
