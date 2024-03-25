@@ -36,7 +36,7 @@ import LV from "./brandsPages/LV";
 function App() {
   // State to manage the array of cards
   const [cardArr, setCardArr] = useState([]);
-  console.log(cardArr);
+  // console.log(cardArr);
 
   // State to toggle menu height
   const [filter, setFilter] = useState(true);
