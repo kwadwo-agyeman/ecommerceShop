@@ -61,6 +61,7 @@ function App() {
     if (filter === false) {
       inspectCategory(cardContent);
     } else {
+      if(cardContent){
       const categoryArr = cardContent.filter((item) => {
         if (
           item.color === title ||
@@ -72,6 +73,7 @@ function App() {
         }
         return false;
       });
+    }
       inspectCategory(categoryArr);
     }
   };
