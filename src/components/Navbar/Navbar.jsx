@@ -200,7 +200,7 @@ function Navbar() {
               }}
             >
               {/* Brand name */}
-              <Link to="/" style={{textDecoration:"none",color:"white"}}>
+              <Link to="/ecommerceShop" style={{textDecoration:"none",color:"white"}}>
                 <Typography sx={{ fontSize: "20px", fontWeight: 650 }}>
                   UrbanCart
                 </Typography>
